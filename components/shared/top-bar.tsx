@@ -26,7 +26,7 @@ function TopBar({ label, description, extra }: Props) {
 						{extra && (
 							<>
 								<Dot className='size-12 text-muted-foreground' />
-								<p className=''>{t(label)}</p>
+								<p className=''>{t(extra)}</p>
 							</>
 						)}
 					</div>
