@@ -1,4 +1,14 @@
-import { Contact, Home, ListVideo, Rss } from 'lucide-react'
+import {
+	Contact,
+	FileCode,
+	GaugeCircle,
+	Home,
+	ListVideo,
+	MessageSquareMore,
+	MonitorPlay,
+	Rss,
+	Settings2,
+} from 'lucide-react'
 import {
 	DiCisco,
 	DiCreativecommonsBadge,
@@ -63,10 +73,9 @@ export const courses = [
 	{
 		title: 'JavaScript',
 		previewImage:
-			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fd7180d95-5960-48a9-bd2c-1e3dda377329-gnzzth.png&w=1200&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Ffa42d36e-0e79-4d72-806e-2884d9550590-uiysmj.png&w=1200&q=75',
 		author: {
-			image:
-				'https://blog-app-one-mocha.vercel.app/_next/image?url=https%3A%2F%2Fap-southeast-2.graphassets.com%2Fclxnuwqb601h9061c121l8maw%2Fclyn2mhduc8kg071cvhalutdp&w=384&q=75',
+			image: 'https://www.svgrepo.com/show/1356/man.svg',
 			name: 'Chris Impley',
 		},
 		oldPrice: 179,
@@ -76,10 +85,9 @@ export const courses = [
 	{
 		title: 'ReactJS',
 		previewImage:
-			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Ffa42d36e-0e79-4d72-806e-2884d9550590-uiysmj.png&w=1200&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F28bb5b4e-fcd5-4efe-9dfc-ecedc7be17ba-yxqcfn.png&w=1200&q=75',
 		author: {
-			image:
-				'https://blog-app-one-mocha.vercel.app/_next/image?url=https%3A%2F%2Fap-southeast-2.graphassets.com%2Fclxnuwqb601h9061c121l8maw%2Fclyn2mhduc8kg071cvhalutdp&w=384&q=75',
+			image: 'https://www.svgrepo.com/show/1356/man.svg',
 			name: 'Chris Impley',
 		},
 		oldPrice: 159,
@@ -89,10 +97,9 @@ export const courses = [
 	{
 		title: 'VueJS',
 		previewImage:
-			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fcee8c824-e21a-4a79-94df-b2374e2bc745-uiysne.png&w=1200&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2FmMbSyFqocdYGuy6elWw32ShZLOavzytcQulCmd8ogs7R0e4K&w=1200&q=75',
 		author: {
-			image:
-				'https://blog-app-one-mocha.vercel.app/_next/image?url=https%3A%2F%2Fap-southeast-2.graphassets.com%2Fclxnuwqb601h9061c121l8maw%2Fclyn2mhduc8kg071cvhalutdp&w=384&q=75',
+			image: 'https://www.svgrepo.com/show/1356/man.svg',
 			name: 'Chris Impley',
 		},
 		oldPrice: 129,
@@ -102,10 +109,9 @@ export const courses = [
 	{
 		title: 'Telegram BOT',
 		previewImage:
-			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F28bb5b4e-fcd5-4efe-9dfc-ecedc7be17ba-yxqcfn.png&w=1200&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2FmMbSyFqocdYG9DSjR2mKaGFPMRBJzUvYxLTQqoHhtjX72Nmw&w=1200&q=75',
 		author: {
-			image:
-				'https://blog-app-one-mocha.vercel.app/_next/image?url=https%3A%2F%2Fap-southeast-2.graphassets.com%2Fclxnuwqb601h9061c121l8maw%2Fclyn2mhduc8kg071cvhalutdp&w=384&q=75',
+			image: 'https://www.svgrepo.com/show/1356/man.svg',
 			name: 'Chris Impley',
 		},
 		oldPrice: 209,
@@ -115,10 +121,10 @@ export const courses = [
 	{
 		title: 'React Native',
 		previewImage:
-			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Ffa42d36e-0e79-4d72-806e-2884d9550590-uiysmj.png&w=1200&q=75',
+			'https://sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F27f17594-ae28-4fe1-86ce-964a5c89c78d-kilw7k.png&w=1920&q=75',
 		author: {
 			image:
-				'https://blog-app-one-mocha.vercel.app/_next/image?url=https%3A%2F%2Fap-southeast-2.graphassets.com%2Fclxnuwqb601h9061c121l8maw%2Fclyn2mhduc8kg071cvhalutdp&w=384&q=75',
+				'https://blog.sammi.app/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FKmuGvX9oRjYkG3bzttvc&w=1920&q=75',
 			name: 'Chris Impley',
 		},
 		oldPrice: 129,
@@ -128,10 +134,10 @@ export const courses = [
 	{
 		title: 'Foundation',
 		previewImage:
-			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F31fea751-8eaf-4034-8af8-e8ae50b6f863-sfstg7.png&w=1200&q=75',
+			'https://sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fbcdfb541-3300-430f-b8b2-ff0fb57df056-kilw6p.png&w=1920&q=75',
 		author: {
 			image:
-				'https://blog-app-one-mocha.vercel.app/_next/image?url=https%3A%2F%2Fap-southeast-2.graphassets.com%2Fclxnuwqb601h9061c121l8maw%2Fclyn2mhduc8kg071cvhalutdp&w=384&q=75',
+				'https://blog.sammi.app/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FKmuGvX9oRjYkG3bzttvc&w=1920&q=75',
 			name: 'Chris Impley',
 		},
 		oldPrice: 209,
@@ -142,7 +148,7 @@ export const courses = [
 
 export const categories = [
 	{
-		icon: 'categories/digital-marketing.svg',
+		icon: '/categories/digital-marketing.svg',
 		label: 'Digital Marketing',
 	},
 	{ icon: '/categories/web-development.svg', label: 'Web Development' },
@@ -160,23 +166,22 @@ export const categories = [
 export const instructors = [
 	{
 		name: 'Chris Impley',
-		image: 'https://www.bancegt.com/wp-content/uploads/2019/01/person2.jpg',
+		image: 'https://www.bancegt.com/wp-content/uploads/2019/01/person3.jpg',
 		job: 'Web Developer',
 	},
 	{
 		name: 'Thomas Winter',
-		image:
-			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw0qAmnMWbC15sQsUvTctmq716NzKTHRa7a5nDysMFR6HXfn2WwKDPm64vguBTjXHtweU&usqp=CAU',
+		image: 'https://www.bancegt.com/wp-content/uploads/2019/01/person2.jpg',
 		job: 'Photographer',
 	},
 	{
 		name: 'Emma Watson',
-		image: 'https://www.bancegt.com/wp-content/uploads/2019/01/person3.jpg',
+		image: 'https://www.bancegt.com/wp-content/uploads/2019/01/person5.jpg',
 		job: 'Digital Marketer',
 	},
 	{
 		name: 'John Doe',
-		image: 'https://solensys.com/wp-content/uploads/2019/01/person5.jpg',
+		image: 'https://www.bancegt.com/wp-content/uploads/2019/01/person6.jpg',
 		job: 'Designer',
 	},
 ]
@@ -203,3 +208,42 @@ export const learningJourney = [
 		image: '/journey/certificate.png',
 	},
 ]
+
+export const instructorNavLinks = [
+	{
+		label: 'Dashboard',
+		route: '/instructor',
+		icon: GaugeCircle,
+	},
+	{
+		label: 'My Courses',
+		route: '/instructor/my-courses',
+		icon: MonitorPlay,
+	},
+	{
+		label: 'Create Course',
+		route: '/instructor/create-course',
+		icon: FileCode,
+	},
+	{
+		label: 'Reviews',
+		route: '/instructor/reviews',
+		icon: MessageSquareMore,
+	},
+	{
+		label: 'Settings',
+		route: '/instructor/settings',
+		icon: Settings2,
+	},
+]
+
+export const courseLevels = ['beginner', 'intermediate', 'advanced']
+export const courseCategory = [
+	'front-end',
+	'back-end',
+	'full-stack',
+	'mobile',
+	'desktop',
+	'game',
+]
+export const courseLanguage = ['english', 'uzbek', 'russian', 'turkish']
