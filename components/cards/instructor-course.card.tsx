@@ -1,6 +1,7 @@
 import { ICourse } from '@/types'
 import Image from 'next/image'
 import React from 'react'
+import { Badge } from '../ui/badge'
 
 function InstructorCourseCard(course: ICourse) {
 	return (
@@ -12,6 +13,12 @@ function InstructorCourseCard(course: ICourse) {
 					fill
 					className='rounded-md object-cover'
 				/>
+			</div>
+			<div className='flex items-center justify-between px-2'>
+				<h1 className='font-space-grotesk text-2xl font-bold'>
+					{course.title}
+				</h1>
+				<Badge>Publish</Badge>
 			</div>
 		</div>
 	)

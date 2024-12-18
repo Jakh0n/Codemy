@@ -121,7 +121,7 @@ export const courses = [
 	{
 		title: 'React Native',
 		previewImage:
-			'https://sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F27f17594-ae28-4fe1-86ce-964a5c89c78d-kilw7k.png&w=1920&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2FmMbSyFqocdYGT1SyIxvPE0URoA1nO7y5qbiGeaDgw8XvVNZF&w=1200&q=75',
 		author: {
 			image:
 				'https://blog.sammi.app/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FKmuGvX9oRjYkG3bzttvc&w=1920&q=75',
@@ -134,7 +134,7 @@ export const courses = [
 	{
 		title: 'Foundation',
 		previewImage:
-			'https://sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fbcdfb541-3300-430f-b8b2-ff0fb57df056-kilw6p.png&w=1920&q=75',
+			'https://www.sammi.ac/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2FmMbSyFqocdYGoyWHUeXA7npSGrhZX9NcIHO3JgUjB16z02ER&w=1200&q=75',
 		author: {
 			image:
 				'https://blog.sammi.app/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FKmuGvX9oRjYkG3bzttvc&w=1920&q=75',

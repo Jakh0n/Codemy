@@ -6,6 +6,7 @@ import { PiStudent } from 'react-icons/pi'
 import { GrMoney } from 'react-icons/gr'
 import { courses } from '@/constants'
 import InstructorCourseCard from '@/components/cards/instructor-course.card'
+import ReviewCard from '@/components/cards/review.card'
 
 function Page() {
 	return (
@@ -30,6 +31,18 @@ function Page() {
 						<InstructorCourseCard key={course.title} {...course} />
 					))
 					.slice(0, 4)}
+			</div>
+			<Header title='Reviews' description='Here are your latest reviews' />
+			<div className='mt-4 grid grid-cols-3 gap-4'>
+				<div className='rounded-md bg-background px-4 pb-4'>
+					<ReviewCard />
+				</div>
+				<div className='rounded-md bg-background px-4 pb-4'>
+					<ReviewCard />
+				</div>
+				<div className='rounded-md bg-background px-4 pb-4'>
+					<ReviewCard />
+				</div>
 			</div>
 		</>
 	)
